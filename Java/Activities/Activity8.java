@@ -33,4 +33,5 @@ public class Activity8 {
 			System.out.println(str);
 		}
 	}
+
 }
