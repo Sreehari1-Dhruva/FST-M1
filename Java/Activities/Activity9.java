@@ -28,4 +28,5 @@ public class Activity9 {
 		myList.remove("Vimal");
 		System.out.println("New Size of ArrayList: " + myList.size());
 	}
+
 }
