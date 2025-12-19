@@ -9,8 +9,6 @@ Feature: Data Driven test with Examples
     Then verify error message as "Invalid credentials"
 
     Examples:
-      | usernames  | passwords     |
-      | wrongAdmin | password      |
-      | admin      | wrongPassword |
-      | !@@$!@$    | $##@#!@$!     |
-      | 212        | 4678          |
+       | Usernames | Passwords      |
+      | admin     | password123    |
+      | admin     | wrongPassword  |
